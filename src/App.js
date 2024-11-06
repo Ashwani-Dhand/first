@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './components/common/NavBar';
+import Hero from './components/Hero';
+import Footer from './components/common/Footer';
+import RunningCard from './components/common/RunningCard';
+import EmpowerCash from './components/EmpowerCash';
+import ExternalCash from './components/ExternalCash';
+import UsedCard from './components/UsedCard';
+import TrustedCash from './components/TrustedCash';
+import CreditCash from './components/CreditCash';
+import Appx from './components/Appx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <NavBar />
+      <Hero />
+      <RunningCard/>
+      <EmpowerCash/>
+      <ExternalCash/>
+      <UsedCard/>
+      <TrustedCash/>
+      <CreditCash/>
+      <Appx/>
+      
+      <Footer />
+    </>
+
   );
 }
 
