@@ -10,20 +10,21 @@ import UsedCard from './components/UsedCard';
 import TrustedCash from './components/TrustedCash';
 import CreditCash from './components/CreditCash';
 import Appx from './components/Appx';
+import BlogDetails from './components/BlogDetails';
 function App() {
   return (
     <>
-
+      {/* <BlogDetails /> */}
       <NavBar />
       <Hero />
-      <RunningCard/>
-      <EmpowerCash/>
-      <ExternalCash/>
-      <UsedCard/>
-      <TrustedCash/>
-      <CreditCash/>
-      <Appx/>
-      
+      <RunningCard />
+      <EmpowerCash />
+      <ExternalCash />
+      <UsedCard />
+      <TrustedCash />
+      <CreditCash />
+      <Appx />
+
       <Footer />
     </>
 

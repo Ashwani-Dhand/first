@@ -2,7 +2,7 @@ import React from 'react'
 import Sections from '../assets/images/Sections.png';
 const UsedCard = () => {
     return (
-        <div className="max-w-full px-4 md:px-6 mx-auto max-w-7xl">
+        <div className="px-4 md:px-6 mx-auto max-w-7xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex justify-center md:justify-start pt-10 md:pt-24 lg:pt-10 pb-10 md:pb-24 lg:pb-10">
                     <img

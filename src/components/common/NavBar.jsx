@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <img src={logo} alt="logo" className="w-[100xpx] h-[37px]" />
-            <div className="flex justify-around gap-16 ml-20 hidden md:flex items-center space-x-4">
+            <div className="justify-around gap-16 ml-20 hidden md:flex items-center space-x-4">
             <a href="#About" className="hover:text-orange-700 font-bold transition duration-1000 nav-item relative">About</a>
             <a href="#Services" className="hover:text-orange-700 font-bold transition duration-1000 nav-item relative">Services</a>
             <a href="#contact" className="hover:text-orange-700 font-bold transition duration-1000 nav-item relative">Contact</a>
