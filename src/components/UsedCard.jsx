@@ -21,7 +21,7 @@ const UsedCard = () => {
 
 
                     <div className="flex flex-col md:flex-row gap-4 py-5">
-                        <div className="w-full md:w-[200px] h-[150px] shadow-lg bg-white flex flex-col justify-center items-center">
+                        <div className=" w-full md:w-[200px] h-[150px] shadow-lg bg-white flex  flex-col justify-center items-center">
                             <h1 className="font-bold text-4xl p-2">12+</h1>
                             <p className="font-bold text-center">Years Experience</p>
                         </div>

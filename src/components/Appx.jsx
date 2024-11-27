@@ -11,14 +11,12 @@ const Appx = () => {
                 <h2 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold'>to get started</h2>
             </div>
             <div className="flex flex-col md:flex-row gap-4 py-5">
-                <button className="w-full h-16 md:w-[184px] md:h-[67px] text-white bg-black py-3 px-4 flex items-center justify-center md:justify-start gap-2 hover:bg-orange-400">
+                <a href="https://www.apple.com/app-store/" className="w-full h-16 md:w-[184px] md:h-[67px] text-white bg-black py-3 px-4 flex items-center justify-center md:justify-start gap-2 hover:bg-orange-400">
                     <AppStore />
-                    <span>Available now on App Store</span>
-                </button>
-                <button className="w-full h-16 md:w-[184px] md:h-[67px] text-white bg-black py-3 px-4 flex items-center justify-center md:justify-start gap-2 hover:bg-orange-400">
+                    <span>Available now on App Store</span></a>
+                <a href=" https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN" className="w-full h-16 md:w-[184px] md:h-[67px] text-white bg-black py-3 px-4 flex items-center justify-center md:justify-start gap-2 hover:bg-orange-400">
                     <PlayStore />
-                    <span>Available now on Play Store</span>
-                </button>
+                    <span>Available now on Play Store</span></a>
             </div>
 
         </div>
